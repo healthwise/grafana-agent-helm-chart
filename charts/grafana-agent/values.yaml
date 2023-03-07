@@ -119,6 +119,9 @@ controller:
   # -- Extra pod annotations to add.
   podAnnotations: {}
 
+  # -- Affinity configuration for pods
+  affinity: {}
+
   # -- Pod labels
   podLabels: {}
 
