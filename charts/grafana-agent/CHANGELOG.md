@@ -12,6 +12,10 @@ Unreleased
 
 ### Enhancements
 
+- Helm chart: Add affinity values. (@therealmanny)
+
+### Enhancements
+
 - Helm chart: Add podLabels values. (@therealmanny)
 
 ### Enhancements
