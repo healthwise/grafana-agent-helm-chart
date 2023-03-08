@@ -3,12 +3,12 @@ entries:
   grafana-agent:
   - apiVersion: v2
     appVersion: v0.32.1
-    created: "2023-03-07T13:30:54.2345991-07:00"
+    created: "2023-03-07T17:54:16.1862256-07:00"
     description: Grafana Agent
-    digest: fdd6d2314741dc63e12115885acc62e89c7c0ca1edd4dc4182d43cfca1c8fd8b
+    digest: 509dbdb40a838770a7daabd2953296fffdaf5451d273c79e88e7cf1fb5655f36
     name: grafana-agent
     type: application
     urls:
     - https://healthwise.github.io/grafana-agent-helm-chart/packages/grafana-agent-0.8.1.tgz
     version: 0.8.1
-generated: "2023-03-07T13:30:54.2335978-07:00"
+generated: "2023-03-07T17:54:16.1842255-07:00"
