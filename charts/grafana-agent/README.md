@@ -53,6 +53,11 @@ use the older mode (called "static mode"), set the `agent.mode` value to
 | controller.podAnnotations | object | `{}` | Extra pod annotations to add. |
 | controller.affinity | object | `{}` | Affinity configuration for pods. |
 | controller.podLabels | object | `{}` | Extra pod labels to add. |
+| controller.autoscaling.enabled | bool | `false` | Creates a HorizontalPodAutoscaler for the deployment. |
+| controller.autoscaling.minReplicas | int | `1` | The lower limit for the number of replicas to which the autoscaler can scale down. |
+| controller.autoscaling.maxReplicas | int | `5` | The upper limit for the number of replicas to which the autoscaler can scale up. |
+| controller.autoscaling.targetCPUUtilizationPercentage | int | `80` | Average CPU utilization across all relevant pods, a percentage of the requested value of the resource for the pods. |
+| controller.autoscaling.targetMemoryUtilizationPercentage | int | `80` | Average Memory utilization across all relevant pods, a percentage of the requested value of the resource for the pods. |
 | controller.priorityClassName | string | `""` | priorityClassName to apply to Grafana Agent pods. |
 | controller.replicas | int | `1` | Number of pods to deploy. Ignored when controller.type is 'daemonset'. |
 | controller.tolerations | list | `[]` | Tolerations to apply to Grafana Agent pods. |
