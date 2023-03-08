@@ -12,6 +12,10 @@ Unreleased
 
 ### Enhancements
 
+- Helm chart: Add Horizontal Pod Autoscaling for deployment. (@therealmanny)
+
+### Enhancements
+
 - Helm chart: Add affinity values. (@therealmanny)
 
 ### Enhancements
